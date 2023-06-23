@@ -7,6 +7,10 @@ import uuid
 import yaml
 from loguru import logger
 
+import  boto3
+client = boto3.client("s3")
+client.upload_file("path/to/file.txt", "your-bucket", "path/to/key.txt")
+
 with open("data/coco128.yaml", "r") as stream:
     names = yaml.safe_load(stream)['names']
 
