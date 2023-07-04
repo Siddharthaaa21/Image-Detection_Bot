@@ -74,6 +74,7 @@ Once the image was built successfully, and the container is running, you can com
 ```bash
 curl -F 'file=@<path-to-image>' localhost:8081/predict
 ```
+TODO:
 
 Replace `<path-to-image>` by a file of natural image which you want to predict objects in. 
 
