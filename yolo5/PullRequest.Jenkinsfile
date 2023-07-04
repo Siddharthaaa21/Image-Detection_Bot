@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Unittest') {
             steps {
-                echo "testing"
+              sh ' echo-info "Running unit tests"'
+                
             }
         }
         stage('Lint') {
