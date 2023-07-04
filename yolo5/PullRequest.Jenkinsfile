@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Unittest') {
             steps {
-              sh ' echo "Unittesting"'
+              sh ' echo-info "Running unit tests"'
                 
             }
         }
