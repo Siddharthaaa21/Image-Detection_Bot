@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.285" timestamp="2023-07-04T14:39:16.860485" hostname="DESKTOP-QK7T85G"><testcase classname="" name="tests.test_allowed_file" time="0.000"><error message="collection failure">ImportError while importing test module 'E:\Github\Image-Detection-Bot\yolo5\tests\test_allowed_file.py'.
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.295" timestamp="2023-07-04T14:48:34.553449" hostname="DESKTOP-QK7T85G"><testcase classname="" name="tests.test_allowed_file" time="0.000"><error message="collection failure">ImportError while importing test module 'E:\Github\Image-Detection-Bot\yolo5\tests\test_allowed_file.py'.
 Hint: make sure your test modules/packages have valid Python names.
 Traceback:
 C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py:126: in import_module
